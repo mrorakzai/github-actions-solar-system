@@ -36,8 +36,7 @@ jobs:
             name: Mocha-Test-Result
             path: test-results.xml
     code-coverage:
-      name: Code Coverage
-      id: code-coverage
+      name: Code Coverage 
       runs-on: ubuntu-latest
       steps:
       - name: Actions Checkout
