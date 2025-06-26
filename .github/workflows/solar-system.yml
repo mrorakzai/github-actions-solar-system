@@ -63,7 +63,7 @@ jobs:
         name: development
       steps:
       - uses: actions/checkout@v4
-      - uses: azure/setup-kubectl
+      - uses: azure/setup-kubectl@v4
         with:
           version: 1.28.1
       - uses: azure/k8s-set-context@v3
